@@ -1,0 +1,3126 @@
+public final class Example_basic_java_01Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleAgentClientProtocol01/Example_agent_client_protocol_01Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleAgentClientProtocol02/MyAgentSession : com/agentclientprotocol/agent/AgentSession {
+	public synthetic fun <init> (Ljava/lang/String;Lai/koog/prompt/executor/model/PromptExecutor;Lcom/agentclientprotocol/protocol/Protocol;Lai/koog/utils/time/KoogClock;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun cancel (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun getAvailableModels ()Ljava/util/List;
+	public fun getAvailableModes ()Ljava/util/List;
+	public fun getConfigOptions ()Ljava/util/List;
+	public fun getDefaultMode-kyZWFqk ()Ljava/lang/String;
+	public fun getDefaultModel-GMZLII8 ()Ljava/lang/String;
+	public fun getSessionId-7EW-EgU ()Ljava/lang/String;
+	public fun prompt (Ljava/util/List;Lkotlinx/serialization/json/JsonElement;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun setConfigOption-p1da2xM (Ljava/lang/String;Ljava/lang/String;Lkotlinx/serialization/json/JsonElement;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun setMode-tFeI3nk (Ljava/lang/String;Lkotlinx/serialization/json/JsonElement;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun setModel-BrQ11X8 (Ljava/lang/String;Lkotlinx/serialization/json/JsonElement;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleAgentClientProtocol03/MyAgentSession : com/agentclientprotocol/agent/AgentSession {
+	public synthetic fun <init> (Ljava/lang/String;Lai/koog/prompt/executor/model/PromptExecutor;Lcom/agentclientprotocol/protocol/Protocol;Lai/koog/utils/time/KoogClock;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun cancel (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun getAvailableModels ()Ljava/util/List;
+	public fun getAvailableModes ()Ljava/util/List;
+	public fun getConfigOptions ()Ljava/util/List;
+	public fun getDefaultMode-kyZWFqk ()Ljava/lang/String;
+	public fun getDefaultModel-GMZLII8 ()Ljava/lang/String;
+	public fun getSessionId-7EW-EgU ()Ljava/lang/String;
+	public fun prompt (Ljava/util/List;Lkotlinx/serialization/json/JsonElement;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun setConfigOption-p1da2xM (Ljava/lang/String;Ljava/lang/String;Lkotlinx/serialization/json/JsonElement;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun setMode-tFeI3nk (Ljava/lang/String;Lkotlinx/serialization/json/JsonElement;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun setModel-BrQ11X8 (Ljava/lang/String;Lkotlinx/serialization/json/JsonElement;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleAgentClientProtocol03/MyAgentSupport : com/agentclientprotocol/agent/AgentSupport {
+	public fun <init> (Lai/koog/prompt/executor/model/PromptExecutor;Lai/koog/utils/time/KoogClock;Lcom/agentclientprotocol/protocol/Protocol;)V
+	public fun authenticate-fMnwWJU (Ljava/lang/String;Lkotlinx/serialization/json/JsonElement;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun createSession (Lcom/agentclientprotocol/common/SessionCreationParameters;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun forkSession-nk3TnMc (Ljava/lang/String;Lcom/agentclientprotocol/common/SessionCreationParameters;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun initialize (Lcom/agentclientprotocol/client/ClientInfo;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun listSessions (Ljava/lang/String;Lkotlinx/serialization/json/JsonElement;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun loadSession-nk3TnMc (Ljava/lang/String;Lcom/agentclientprotocol/common/SessionCreationParameters;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun resumeSession-nk3TnMc (Ljava/lang/String;Lcom/agentclientprotocol/common/SessionCreationParameters;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleAgentClientProtocol04/Example_agent_client_protocol_04Kt {
+	public static final fun getClock ()Lai/koog/utils/time/KoogClock;
+}
+
+public final class ai/koog/agents/example/exampleAgentClientProtocol05/Example_agent_client_protocol_05Kt {
+	public static final fun getPlan ()Lcom/agentclientprotocol/model/Plan;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleAgentClientProtocol06/Example_agent_client_protocol_06Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleAgentConfig01/Example_agent_config_01Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleAgentConfig02/Example_agent_config_02Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getAgentConfig ()Lai/koog/agents/core/agent/config/AIAgentConfig;
+}
+
+public final class ai/koog/agents/example/exampleAgentPersistence01/Example_agent_persistence_01Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/exampleAgentPersistence02/Example_agent_persistence_02Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleAgentPersistence03/Example_agent_persistence_03Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleAgentPersistence04/Example_agent_persistence_04Kt {
+	public static final field outputData Ljava/lang/String;
+	public static final fun example (Lai/koog/agents/core/agent/context/AIAgentContext;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static final fun getOutputType ()Lai/koog/serialization/KotlinTypeToken;
+}
+
+public final class ai/koog/agents/example/exampleAgentPersistence05/Example_agent_persistence_05Kt {
+	public static final fun example (Lai/koog/agents/core/agent/context/AIAgentContext;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleAgentPersistence06/Example_agent_persistence_06Kt {
+	public static final fun createUser (Ljava/lang/String;)V
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun removeUser (Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleAgentPersistence07/Example_agent_persistence_07Kt {
+	public static final fun example (Lai/koog/agents/core/agent/context/AIAgentContext;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleAgentPersistence09/Example_agent_persistence_09Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleAgentPersistence09/MyCustomStorageProvider : ai/koog/agents/snapshot/providers/PersistenceStorageProvider {
+	public fun <init> ()V
+	public fun getCheckpoints (Ljava/lang/String;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun getCheckpoints (Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun getLatestCheckpoint (Ljava/lang/String;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun getLatestCheckpoint (Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun saveCheckpoint (Ljava/lang/String;Lai/koog/agents/snapshot/feature/AgentCheckpointData;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleAgentPersistence10/Example_agent_persistence_10Kt {
+	public static final fun example (Lai/koog/agents/core/agent/context/AIAgentContext;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static final fun getCustomMessageHistory ()Ljava/util/List;
+	public static final fun getCustomOutput ()Lai/koog/serialization/JSONPrimitive;
+}
+
+public final class ai/koog/agents/example/exampleAnnotationBasedTools01/MyToolSet : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> ()V
+	public final fun anotherTool ()Ljava/lang/String;
+	public fun asTools ()Ljava/util/List;
+	public fun getName ()Ljava/lang/String;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+	public final fun myTool ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleAnnotationBasedTools02/Example_annotation_based_tools_02Kt {
+	public static final fun myTool ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleAnnotationBasedTools03/Example_annotation_based_tools_03Kt {
+	public static final fun processTool (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	public static synthetic fun processTool$default (Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleAnnotationBasedTools04/MyFirstToolSet : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> ()V
+	public fun asTools ()Ljava/util/List;
+	public fun getName ()Ljava/lang/String;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+}
+
+public final class ai/koog/agents/example/exampleAnnotationBasedTools05/MyFirstToolSet : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> ()V
+	public fun asTools ()Ljava/util/List;
+	public fun getName ()Ljava/lang/String;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+	public final fun getWeather (Ljava/lang/String;)Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleAnnotationBasedTools06/MyFirstToolSet : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> ()V
+	public fun asTools ()Ljava/util/List;
+	public fun getName ()Ljava/lang/String;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+	public final fun getWeather (Ljava/lang/String;)Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleAnnotationBasedTools07/Example_annotation_based_tools_07Kt {
+	public static final field apiToken Ljava/lang/String;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleAnnotationBasedTools08/Switch {
+	public fun <init> (Z)V
+	public final fun isOn ()Z
+	public final fun switch (Z)V
+}
+
+public final class ai/koog/agents/example/exampleAnnotationBasedTools08/SwitchTools : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> (Lai/koog/agents/example/exampleAnnotationBasedTools08/Switch;)V
+	public fun asTools ()Ljava/util/List;
+	public fun getName ()Ljava/lang/String;
+	public final fun getSwitch ()Lai/koog/agents/example/exampleAnnotationBasedTools08/Switch;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+	public final fun switch (Z)Ljava/lang/String;
+	public final fun switchState ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleAnnotationBasedTools09/DiagnosticToolSet : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> ()V
+	public final fun analyzeError (Ljava/lang/String;)Ljava/lang/String;
+	public fun asTools ()Ljava/util/List;
+	public fun getName ()Ljava/lang/String;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+	public final fun runDiagnostic (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	public static synthetic fun runDiagnostic$default (Lai/koog/agents/example/exampleAnnotationBasedTools09/DiagnosticToolSet;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleBasic01/Example_basic_01Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleBasic02/Example_basic_02Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleBasic03/Example_basic_03Kt {
+	public static final fun askUser (Ljava/lang/String;)Ljava/lang/String;
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleBasic04/Example_basic_04Kt {
+	public static final fun askUser (Ljava/lang/String;)Ljava/lang/String;
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleBasic05/Example_basic_05Kt {
+	public static final fun askUser (Ljava/lang/String;)Ljava/lang/String;
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleBuiltInTools01/Example_built_in_tools_01Kt {
+	public static final field apiToken Ljava/lang/String;
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+}
+
+public final class ai/koog/agents/example/exampleCacheControl01/Example_cache_control_01Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleCacheControl02/Example_cache_control_02Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleCacheControl03/Example_cache_control_03Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleCacheControl04/Example_cache_control_04Kt {
+	public static final fun getSearchTool ()Lai/koog/agents/core/tools/ToolDescriptor;
+}
+
+public final class ai/koog/agents/example/exampleCacheControl05/Example_cache_control_05Kt {
+	public static final fun getParams ()Lai/koog/prompt/executor/clients/anthropic/AnthropicParams;
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleCacheControl06/Example_cache_control_06Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleCacheControl07/Example_cache_control_07Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleCacheControl08/Example_cache_control_08Kt {
+	public static final fun getSearchTool ()Lai/koog/agents/core/tools/ToolDescriptor;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools01/CalculatorTool : ai/koog/agents/core/tools/Tool {
+	public static final field INSTANCE Lai/koog/agents/example/exampleClassBasedTools01/CalculatorTool;
+	public fun execute (Lai/koog/agents/example/exampleClassBasedTools01/CalculatorTool$Args;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools01/CalculatorTool$Args {
+	public static final field Companion Lai/koog/agents/example/exampleClassBasedTools01/CalculatorTool$Args$Companion;
+	public fun <init> (II)V
+	public final fun component1 ()I
+	public final fun component2 ()I
+	public final fun copy (II)Lai/koog/agents/example/exampleClassBasedTools01/CalculatorTool$Args;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleClassBasedTools01/CalculatorTool$Args;IIILjava/lang/Object;)Lai/koog/agents/example/exampleClassBasedTools01/CalculatorTool$Args;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDigit1 ()I
+	public final fun getDigit2 ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleClassBasedTools01/CalculatorTool$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleClassBasedTools01/CalculatorTool$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleClassBasedTools01/CalculatorTool$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleClassBasedTools01/CalculatorTool$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools01/CalculatorTool$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool : ai/koog/agents/core/tools/SimpleTool {
+	public static final field INSTANCE Lai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool;
+	public fun execute (Lai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool$Args;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool$Args {
+	public static final field Companion Lai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool$Args$Companion;
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;)Lai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool$Args;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool$Args;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool$Args;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getComment ()Ljava/lang/String;
+	public final fun getExpression ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools02/CastToDoubleTool$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools03/EditFile : ai/koog/agents/core/tools/Tool {
+	public static final field INSTANCE Lai/koog/agents/example/exampleClassBasedTools03/EditFile;
+	public fun execute (Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Args;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Args {
+	public static final field Companion Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Args$Companion;
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Args;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Args;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Args;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getOriginal ()Ljava/lang/String;
+	public final fun getPath ()Ljava/lang/String;
+	public final fun getReplacement ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Result {
+	public static final field Companion Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$Companion;
+	public fun <init> (Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult;)V
+	public final fun copy (Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult;)Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result;Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult;ILjava/lang/Object;)Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public final fun textForLLM ()Ljava/lang/String;
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public abstract interface class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult {
+	public static final field Companion Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Companion;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public abstract class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Failure : ai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult {
+	public static final field Companion Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Failure$Companion;
+	public synthetic fun <init> (ILjava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
+	public synthetic fun <init> (Ljava/lang/String;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun getReason ()Ljava/lang/String;
+	public static final synthetic fun write$Self (Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Failure;Lkotlinx/serialization/encoding/CompositeEncoder;Lkotlinx/serialization/descriptors/SerialDescriptor;)V
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Failure$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Success : ai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult {
+	public static final field Companion Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Success$Companion;
+	public fun <init> (Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;)Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Success;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Success;Ljava/lang/String;ILjava/lang/Object;)Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Success;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getUpdatedContent ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Success$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Success$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Success;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Success;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedTools03/EditFile$Result$PatchApplyResult$Success$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool : ai/koog/agents/core/agent/tools/AgentContextAwareTool {
+	public static final field INSTANCE Lai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool;
+	public fun execute (Lai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool$Args;Lai/koog/agents/core/agent/context/AIAgentContext;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lai/koog/agents/core/agent/context/AIAgentContext;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool$Args {
+	public static final field Companion Lai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool$Args$Companion;
+	public fun <init> (II)V
+	public final fun component1 ()I
+	public final fun component2 ()I
+	public final fun copy (II)Lai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool$Args;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool$Args;IIILjava/lang/Object;)Lai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool$Args;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDigit1 ()I
+	public final fun getDigit2 ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedToolsMetadata01/TracingCalculatorTool$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool : ai/koog/agents/core/tools/ToolBase {
+	public static final field INSTANCE Lai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool;
+	public fun execute (Lai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool$Args;Lai/koog/agents/core/tools/ToolCallMetadata;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lai/koog/agents/core/tools/ToolCallMetadata;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool$Args {
+	public static final field Companion Lai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool$Args$Companion;
+	public fun <init> (II)V
+	public final fun component1 ()I
+	public final fun component2 ()I
+	public final fun copy (II)Lai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool$Args;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool$Args;IIILjava/lang/Object;)Lai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool$Args;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDigit1 ()I
+	public final fun getDigit2 ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleClassBasedToolsMetadata02/SpanAwareCalculatorTool$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleContentModeration01/Example_content_moderation_01Kt {
+	public static final field apiKey Ljava/lang/String;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleContentModeration02/Example_content_moderation_02Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleContentModeration03/Example_content_moderation_03Kt {
+	public static final field openAIApiKey Ljava/lang/String;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleContentModeration04/ModerationResult {
+	public static final field Companion Lai/koog/agents/example/exampleContentModeration04/ModerationResult$Companion;
+	public fun <init> (ZLjava/util/Map;)V
+	public final fun component1 ()Z
+	public final fun component2 ()Ljava/util/Map;
+	public final fun copy (ZLjava/util/Map;)Lai/koog/agents/example/exampleContentModeration04/ModerationResult;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleContentModeration04/ModerationResult;ZLjava/util/Map;ILjava/lang/Object;)Lai/koog/agents/example/exampleContentModeration04/ModerationResult;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getCategories ()Ljava/util/Map;
+	public final fun getViolatedCategories ()Ljava/util/List;
+	public fun hashCode ()I
+	public final fun isHarmful ()Z
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleContentModeration04/ModerationResult$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleContentModeration04/ModerationResult$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleContentModeration04/ModerationResult;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleContentModeration04/ModerationResult;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleContentModeration04/ModerationResult$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleContentModeration04/ModerationResult$InputType : java/lang/Enum {
+	public static final field Companion Lai/koog/agents/example/exampleContentModeration04/ModerationResult$InputType$Companion;
+	public static final field IMAGE Lai/koog/agents/example/exampleContentModeration04/ModerationResult$InputType;
+	public static final field TEXT Lai/koog/agents/example/exampleContentModeration04/ModerationResult$InputType;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lai/koog/agents/example/exampleContentModeration04/ModerationResult$InputType;
+	public static fun values ()[Lai/koog/agents/example/exampleContentModeration04/ModerationResult$InputType;
+}
+
+public final class ai/koog/agents/example/exampleContentModeration04/ModerationResult$InputType$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleContentModeration05/Example_content_moderation_05Kt {
+	public static final fun getResult ()Lai/koog/prompt/dsl/ModerationResult;
+}
+
+public final class ai/koog/agents/example/exampleContentModeration06/Example_content_moderation_06Kt {
+	public static final fun getResult ()Lai/koog/prompt/dsl/ModerationResult;
+}
+
+public final class ai/koog/agents/example/exampleContentModeration07/Example_content_moderation_07Kt {
+	public static final fun getResult ()Lai/koog/prompt/dsl/ModerationResult;
+}
+
+public final class ai/koog/agents/example/exampleContentModeration08/Example_content_moderation_08Kt {
+	public static final fun getResult ()Lai/koog/prompt/dsl/ModerationResult;
+}
+
+public final class ai/koog/agents/example/exampleCreatingPrompts01/Example_creating_prompts_01Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleCreatingPrompts02/Example_creating_prompts_02Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleCreatingPrompts03/Example_creating_prompts_03Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleCreatingPrompts04/Example_creating_prompts_04Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleCreatingPrompts05/Example_creating_prompts_05Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleCreatingPrompts06/Example_creating_prompts_06Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleCreatingPrompts07/Example_creating_prompts_07Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleCreatingPrompts08/Example_creating_prompts_08Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleCreatingPrompts09/Example_creating_prompts_09Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleCreatingPrompts10/Example_creating_prompts_10Kt {
+	public static final fun getBasePrompt ()Lai/koog/prompt/Prompt;
+	public static final fun getExtendedPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures01/MyFeature {
+	public static final field Feature Lai/koog/agents/example/exampleCustomFeatures01/MyFeature$Feature;
+	public fun <init> (Ljava/lang/String;)V
+	public final fun getSomeProperty ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures01/MyFeature$Config : ai/koog/agents/core/feature/config/FeatureConfig {
+	public fun <init> ()V
+	public final fun getConfigProperty ()Ljava/lang/String;
+	public final fun setConfigProperty (Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures01/MyFeature$Feature : ai/koog/agents/core/feature/AIAgentFunctionalFeature, ai/koog/agents/core/feature/AIAgentGraphFeature, ai/koog/agents/core/feature/AIAgentPlannerFeature {
+	public synthetic fun createInitialConfig (Lai/koog/agents/core/agent/config/AIAgentConfig;)Lai/koog/agents/core/feature/config/FeatureConfig;
+	public fun createInitialConfig (Lai/koog/agents/core/agent/config/AIAgentConfig;)Lai/koog/agents/example/exampleCustomFeatures01/MyFeature$Config;
+	public fun getKey ()Lai/koog/agents/core/agent/entity/AIAgentStorageKey;
+	public synthetic fun install (Lai/koog/agents/core/feature/config/FeatureConfig;Lai/koog/agents/core/feature/pipeline/AIAgentFunctionalPipeline;)Ljava/lang/Object;
+	public synthetic fun install (Lai/koog/agents/core/feature/config/FeatureConfig;Lai/koog/agents/core/feature/pipeline/AIAgentGraphPipeline;)Ljava/lang/Object;
+	public synthetic fun install (Lai/koog/agents/core/feature/config/FeatureConfig;Lai/koog/agents/core/feature/pipeline/AIAgentPlannerPipeline;)Ljava/lang/Object;
+	public fun install (Lai/koog/agents/example/exampleCustomFeatures01/MyFeature$Config;Lai/koog/agents/core/feature/pipeline/AIAgentFunctionalPipeline;)Lai/koog/agents/example/exampleCustomFeatures01/MyFeature;
+	public fun install (Lai/koog/agents/example/exampleCustomFeatures01/MyFeature$Config;Lai/koog/agents/core/feature/pipeline/AIAgentGraphPipeline;)Lai/koog/agents/example/exampleCustomFeatures01/MyFeature;
+	public fun install (Lai/koog/agents/example/exampleCustomFeatures01/MyFeature$Config;Lai/koog/agents/core/feature/pipeline/AIAgentPlannerPipeline;)Lai/koog/agents/example/exampleCustomFeatures01/MyFeature;
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures02/Example_custom_features_02Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getConfigProperty ()Ljava/lang/String;
+	public static final fun getMyFeature ()Lai/koog/agents/features/tracing/feature/Tracing$Feature;
+	public static final fun setConfigProperty (Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures03/Example_custom_features_03Kt {
+	public static final fun main (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures04/MyFeatureConfig : ai/koog/agents/core/feature/config/FeatureConfig {
+	public fun <init> ()V
+	public fun setEventFilter (Lkotlin/jvm/functions/Function1;)V
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures05/LoggingFeature {
+	public static final field Feature Lai/koog/agents/example/exampleCustomFeatures05/LoggingFeature$Feature;
+	public fun <init> (Ljava/lang/String;)V
+	public final fun getLoggerName ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures05/LoggingFeature$Config : ai/koog/agents/core/feature/config/FeatureConfig {
+	public fun <init> ()V
+	public final fun getLoggerName ()Ljava/lang/String;
+	public final fun setLoggerName (Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures05/LoggingFeature$Feature : ai/koog/agents/core/feature/AIAgentFunctionalFeature, ai/koog/agents/core/feature/AIAgentGraphFeature, ai/koog/agents/core/feature/AIAgentPlannerFeature {
+	public synthetic fun createInitialConfig (Lai/koog/agents/core/agent/config/AIAgentConfig;)Lai/koog/agents/core/feature/config/FeatureConfig;
+	public fun createInitialConfig (Lai/koog/agents/core/agent/config/AIAgentConfig;)Lai/koog/agents/example/exampleCustomFeatures05/LoggingFeature$Config;
+	public fun getKey ()Lai/koog/agents/core/agent/entity/AIAgentStorageKey;
+	public synthetic fun install (Lai/koog/agents/core/feature/config/FeatureConfig;Lai/koog/agents/core/feature/pipeline/AIAgentFunctionalPipeline;)Ljava/lang/Object;
+	public synthetic fun install (Lai/koog/agents/core/feature/config/FeatureConfig;Lai/koog/agents/core/feature/pipeline/AIAgentGraphPipeline;)Ljava/lang/Object;
+	public synthetic fun install (Lai/koog/agents/core/feature/config/FeatureConfig;Lai/koog/agents/core/feature/pipeline/AIAgentPlannerPipeline;)Ljava/lang/Object;
+	public fun install (Lai/koog/agents/example/exampleCustomFeatures05/LoggingFeature$Config;Lai/koog/agents/core/feature/pipeline/AIAgentFunctionalPipeline;)Lai/koog/agents/example/exampleCustomFeatures05/LoggingFeature;
+	public fun install (Lai/koog/agents/example/exampleCustomFeatures05/LoggingFeature$Config;Lai/koog/agents/core/feature/pipeline/AIAgentGraphPipeline;)Lai/koog/agents/example/exampleCustomFeatures05/LoggingFeature;
+	public fun install (Lai/koog/agents/example/exampleCustomFeatures05/LoggingFeature$Config;Lai/koog/agents/core/feature/pipeline/AIAgentPlannerPipeline;)Lai/koog/agents/example/exampleCustomFeatures05/LoggingFeature;
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures06/Example_custom_features_06Kt {
+	public static final fun main (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures06/LoggingFeature {
+	public static final field Feature Lai/koog/agents/example/exampleCustomFeatures06/LoggingFeature$Feature;
+	public fun <init> (Ljava/lang/String;)V
+	public final fun getLoggerName ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures06/LoggingFeature$Config : ai/koog/agents/core/feature/config/FeatureConfig {
+	public fun <init> ()V
+	public final fun getLoggerName ()Ljava/lang/String;
+	public final fun setLoggerName (Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleCustomFeatures06/LoggingFeature$Feature : ai/koog/agents/core/feature/AIAgentFunctionalFeature, ai/koog/agents/core/feature/AIAgentGraphFeature, ai/koog/agents/core/feature/AIAgentPlannerFeature {
+	public synthetic fun createInitialConfig (Lai/koog/agents/core/agent/config/AIAgentConfig;)Lai/koog/agents/core/feature/config/FeatureConfig;
+	public fun createInitialConfig (Lai/koog/agents/core/agent/config/AIAgentConfig;)Lai/koog/agents/example/exampleCustomFeatures06/LoggingFeature$Config;
+	public fun getKey ()Lai/koog/agents/core/agent/entity/AIAgentStorageKey;
+	public synthetic fun install (Lai/koog/agents/core/feature/config/FeatureConfig;Lai/koog/agents/core/feature/pipeline/AIAgentFunctionalPipeline;)Ljava/lang/Object;
+	public synthetic fun install (Lai/koog/agents/core/feature/config/FeatureConfig;Lai/koog/agents/core/feature/pipeline/AIAgentGraphPipeline;)Ljava/lang/Object;
+	public synthetic fun install (Lai/koog/agents/core/feature/config/FeatureConfig;Lai/koog/agents/core/feature/pipeline/AIAgentPlannerPipeline;)Ljava/lang/Object;
+	public fun install (Lai/koog/agents/example/exampleCustomFeatures06/LoggingFeature$Config;Lai/koog/agents/core/feature/pipeline/AIAgentFunctionalPipeline;)Lai/koog/agents/example/exampleCustomFeatures06/LoggingFeature;
+	public fun install (Lai/koog/agents/example/exampleCustomFeatures06/LoggingFeature$Config;Lai/koog/agents/core/feature/pipeline/AIAgentGraphPipeline;)Lai/koog/agents/example/exampleCustomFeatures06/LoggingFeature;
+	public fun install (Lai/koog/agents/example/exampleCustomFeatures06/LoggingFeature$Config;Lai/koog/agents/core/feature/pipeline/AIAgentPlannerPipeline;)Lai/koog/agents/example/exampleCustomFeatures06/LoggingFeature;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes01/Example_custom_nodes_01Kt {
+	public static final fun getReturnValue ()I
+	public static final fun getStr ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes02/Example_custom_nodes_02Kt {
+	public static final fun getStr ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes03/Example_custom_nodes_03Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes04/Example_custom_nodes_04Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes05/Example_custom_nodes_05Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes06/Example_custom_nodes_06Kt {
+	public static final fun myStatefulNode (Lai/koog/agents/core/dsl/builder/AIAgentSubgraphBuilderBase;Ljava/lang/String;)Lai/koog/agents/core/dsl/builder/AIAgentNodeDelegate;
+	public static synthetic fun myStatefulNode$default (Lai/koog/agents/core/dsl/builder/AIAgentSubgraphBuilderBase;Ljava/lang/String;ILjava/lang/Object;)Lai/koog/agents/core/dsl/builder/AIAgentNodeDelegate;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes07/Example_custom_nodes_07Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes08/Example_custom_nodes_08Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes09/Example_custom_nodes_09Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes10/Example_custom_nodes_10Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes11/Example_custom_nodes_11Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+	public static final fun getToolName ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes11/ToolArgs {
+	public static final field Companion Lai/koog/agents/example/exampleCustomNodes11/ToolArgs$Companion;
+	public fun <init> (Ljava/lang/String;I)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()I
+	public final fun copy (Ljava/lang/String;I)Lai/koog/agents/example/exampleCustomNodes11/ToolArgs;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleCustomNodes11/ToolArgs;Ljava/lang/String;IILjava/lang/Object;)Lai/koog/agents/example/exampleCustomNodes11/ToolArgs;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getArg1 ()Ljava/lang/String;
+	public final fun getArg2 ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleCustomNodes11/ToolArgs$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleCustomNodes11/ToolArgs$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleCustomNodes11/ToolArgs;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleCustomNodes11/ToolArgs;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleCustomNodes11/ToolArgs$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleCustomStrategyGraphs01/Example_custom_strategy_graphs_01Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomStrategyGraphs02/Example_custom_strategy_graphs_02Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomStrategyGraphs03/Example_custom_strategy_graphs_03Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomStrategyGraphs04/Example_custom_strategy_graphs_04Kt {
+	public static final fun getSomeTool ()Lai/koog/agents/ext/tool/SayToUser;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomStrategyGraphs05/Example_custom_strategy_graphs_05Kt {
+	public static final fun getMyStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomStrategyGraphs06/Example_custom_strategy_graphs_06Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleCustomStrategyGraphs07/Example_custom_strategy_graphs_07Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomStrategyGraphs09/Example_custom_strategy_graphs_09Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomStrategyGraphs10/Example_custom_strategy_graphs_10Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomStrategyGraphs11/Example_custom_strategy_graphs_11Kt {
+	public static final fun toneStrategy (Ljava/lang/String;Lai/koog/agents/core/tools/ToolRegistry;)Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs01/Example_custom_subgraphs_01Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs02/Example_custom_subgraphs_02Kt {
+	public static final fun getFirstTool ()Lai/koog/agents/ext/tool/SayToUser;
+	public static final fun getSecondTool ()Lai/koog/agents/ext/tool/AskUser;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs03/Example_custom_subgraphs_03Kt {
+	public static final fun getFirstTool ()Lai/koog/agents/ext/tool/SayToUser;
+	public static final fun getSecondTool ()Lai/koog/agents/ext/tool/AskUser;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs04/Example_custom_subgraphs_04Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs05/Example_custom_subgraphs_05Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs06/Example_custom_subgraphs_06Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs07/Example_custom_subgraphs_07Kt {
+	public static final fun getFirstTool ()Lai/koog/agents/ext/tool/AskUser;
+	public static final fun getSecondTool ()Lai/koog/agents/ext/tool/SayToUser;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs08/DoAction : ai/koog/agents/core/tools/SimpleTool {
+	public fun <init> ()V
+	public fun execute (Lai/koog/agents/example/exampleCustomSubgraphs08/DoAction$Args;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs08/DoAction$Args {
+	public static final field Companion Lai/koog/agents/example/exampleCustomSubgraphs08/DoAction$Args$Companion;
+	public fun <init> (Ljava/lang/String;)V
+	public final fun getAction ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleCustomSubgraphs08/DoAction$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleCustomSubgraphs08/DoAction$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleCustomSubgraphs08/DoAction$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleCustomSubgraphs08/DoAction$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs08/DoAction$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs08/DoAnotherAction : ai/koog/agents/core/tools/SimpleTool {
+	public fun <init> ()V
+	public fun execute (Lai/koog/agents/example/exampleCustomSubgraphs08/DoAnotherAction$Args;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs08/DoAnotherAction$Args {
+	public static final field Companion Lai/koog/agents/example/exampleCustomSubgraphs08/DoAnotherAction$Args$Companion;
+	public fun <init> (Ljava/lang/String;)V
+	public final fun getAction ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleCustomSubgraphs08/DoAnotherAction$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleCustomSubgraphs08/DoAnotherAction$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleCustomSubgraphs08/DoAnotherAction$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleCustomSubgraphs08/DoAnotherAction$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs08/DoAnotherAction$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs08/Example_custom_subgraphs_08Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs08/WebSearchTool : ai/koog/agents/core/tools/SimpleTool {
+	public fun <init> ()V
+	public fun execute (Lai/koog/agents/example/exampleCustomSubgraphs08/WebSearchTool$Args;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs08/WebSearchTool$Args {
+	public static final field Companion Lai/koog/agents/example/exampleCustomSubgraphs08/WebSearchTool$Args$Companion;
+	public fun <init> (Ljava/lang/String;)V
+	public final fun getQuery ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleCustomSubgraphs08/WebSearchTool$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleCustomSubgraphs08/WebSearchTool$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleCustomSubgraphs08/WebSearchTool$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleCustomSubgraphs08/WebSearchTool$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleCustomSubgraphs08/WebSearchTool$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleDataTransferBetweenNodes01/UserData {
+	public fun <init> (Ljava/lang/String;I)V
+	public final fun getAge ()I
+	public final fun getName ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleDataTransferBetweenNodes02/Example_data_transfer_between_nodes_02Kt {
+	public static final fun getUserDataKey ()Lai/koog/agents/core/agent/entity/AIAgentStorageKey;
+}
+
+public final class ai/koog/agents/example/exampleDataTransferBetweenNodes02/UserData {
+	public fun <init> (Ljava/lang/String;I)V
+	public final fun getAge ()I
+	public final fun getName ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleDataTransferBetweenNodes03/Example_data_transfer_between_nodes_03Kt {
+	public static final fun getNodeSaveData ()Lai/koog/agents/core/agent/entity/AIAgentNodeBase;
+	public static final fun getUserDataKey ()Lai/koog/agents/core/agent/entity/AIAgentStorageKey;
+}
+
+public final class ai/koog/agents/example/exampleDataTransferBetweenNodes03/UserData {
+	public fun <init> (Ljava/lang/String;I)V
+	public final fun getAge ()I
+	public final fun getName ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleDataTransferBetweenNodes04/Example_data_transfer_between_nodes_04Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleDataTransferBetweenNodes04/UserData {
+	public fun <init> (Ljava/lang/String;I)V
+	public final fun getAge ()I
+	public final fun getName ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleDatadogExporter01/Example_datadog_exporter_01Kt {
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleDatadogExporter02/Example_datadog_exporter_02Kt {
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun main ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleDatadogExporter03/Example_datadog_exporter_03Kt {
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleEmbeddings01/Example_embeddings_01Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleEmbeddings02/Example_embeddings_02Kt {
+	public static final fun openAIEmbed (Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleEmbeddings03/Example_embeddings_03Kt {
+	public static final fun bedrockEmbed (Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleEmbeddings04/Example_embeddings_04Kt {
+	public static final fun compareCodeToText (Lai/koog/embeddings/base/Embedder;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleEmbeddings05/Example_embeddings_05Kt {
+	public static final fun compareCodeToCode (Lai/koog/embeddings/base/Embedder;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleEventHandlers01/Example_event_handlers_01Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleEventHandlers02/Example_event_handlers_02Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleEvents01/Example_events_01Kt {
+	public static final field input Ljava/lang/String;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleEvents02/Example_events_02Kt {
+	public static final field input Ljava/lang/String;
+	public static final fun getConnectionConfig ()Lai/koog/agents/core/feature/remote/server/config/DefaultServerConnectionConfig;
+	public static final fun getLogger ()Lio/github/oshai/kotlinlogging/KLogger;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleEvents03/Example_events_03Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleFunctionalAgent01/Example_functional_agent_01Kt {
+	public static final fun getMathAgent ()Lai/koog/agents/core/agent/FunctionalAIAgent;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/AIAgentFunctionalStrategy;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleFunctionalAgent02/Example_functional_agent_02Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/AIAgentFunctionalStrategy;
+	public static final fun text (Lai/koog/prompt/message/Message$Assistant;)Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleFunctionalAgent03/Example_functional_agent_03Kt {
+	public static final fun getMathAgentWithTools ()Lai/koog/agents/core/agent/FunctionalAIAgent;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/AIAgentFunctionalStrategy;
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleFunctionalAgent03/MathTools : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> ()V
+	public fun asTools ()Ljava/util/List;
+	public fun getName ()Ljava/lang/String;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+	public final fun multiply (II)I
+}
+
+public final class ai/koog/agents/example/exampleGettingStarted01/Example_getting_started_01Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleGettingStarted02/Example_getting_started_02Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleGettingStarted03/Example_getting_started_03Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleGettingStarted04/Example_getting_started_04Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleGettingStarted05/Example_getting_started_05Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleGettingStarted06/Example_getting_started_06Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleGettingStarted07/Example_getting_started_07Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleGettingStarted08/Example_getting_started_08Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleGoapAgents01/ContentState : ai/koog/agents/planner/goap/GoapAgentState {
+	public fun <init> (Ljava/lang/String;ZLjava/lang/String;ZLjava/lang/String;ZZ)V
+	public synthetic fun <init> (Ljava/lang/String;ZLjava/lang/String;ZLjava/lang/String;ZZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Z
+	public final fun component3 ()Ljava/lang/String;
+	public final fun component4 ()Z
+	public final fun component5 ()Ljava/lang/String;
+	public final fun component6 ()Z
+	public final fun component7 ()Z
+	public final fun copy (Ljava/lang/String;ZLjava/lang/String;ZLjava/lang/String;ZZ)Lai/koog/agents/example/exampleGoapAgents01/ContentState;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleGoapAgents01/ContentState;Ljava/lang/String;ZLjava/lang/String;ZLjava/lang/String;ZZILjava/lang/Object;)Lai/koog/agents/example/exampleGoapAgents01/ContentState;
+	public fun equals (Ljava/lang/Object;)Z
+	public synthetic fun getAgentInput ()Ljava/lang/Object;
+	public fun getAgentInput ()Ljava/lang/String;
+	public final fun getDraft ()Ljava/lang/String;
+	public final fun getHasDraft ()Z
+	public final fun getHasOutline ()Z
+	public final fun getHasReview ()Z
+	public final fun getOutline ()Ljava/lang/String;
+	public final fun getTopic ()Ljava/lang/String;
+	public fun hashCode ()I
+	public final fun isPublished ()Z
+	public synthetic fun provideOutput ()Ljava/lang/Object;
+	public fun provideOutput ()Ljava/lang/String;
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleGoapAgents01/Example_goap_agents_01Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/planner/PlannerAIAgent;
+	public static final fun getAgentConfig ()Lai/koog/agents/core/agent/config/AIAgentConfig;
+	public static final fun getPlanner ()Lai/koog/agents/core/planner/AIAgentPlannerStrategy;
+	public static final fun main (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleGoapAgents02/Example_goap_agents_02Kt {
+	public static final fun getPlanner ()Lai/koog/agents/core/planner/AIAgentPlannerStrategy;
+}
+
+public final class ai/koog/agents/example/exampleGoapAgents02/MyState : ai/koog/agents/planner/goap/GoapAgentState {
+	public fun <init> (Ljava/lang/String;ZZ)V
+	public synthetic fun <init> (Ljava/lang/String;ZZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Z
+	public final fun component3 ()Z
+	public final fun copy (Ljava/lang/String;ZZ)Lai/koog/agents/example/exampleGoapAgents02/MyState;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleGoapAgents02/MyState;Ljava/lang/String;ZZILjava/lang/Object;)Lai/koog/agents/example/exampleGoapAgents02/MyState;
+	public fun equals (Ljava/lang/Object;)Z
+	public synthetic fun getAgentInput ()Ljava/lang/Object;
+	public fun getAgentInput ()Ljava/lang/String;
+	public final fun getHasOptimization ()Z
+	public final fun getOperationDone ()Z
+	public final fun getTopic ()Ljava/lang/String;
+	public fun hashCode ()I
+	public synthetic fun provideOutput ()Ljava/lang/Object;
+	public fun provideOutput ()Ljava/lang/String;
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleGoapAgents03/Example_goap_agents_03Kt {
+	public static final fun getPlanner ()Lai/koog/agents/core/planner/AIAgentPlannerStrategy;
+	public static final fun performComplexTask ()Z
+}
+
+public final class ai/koog/agents/example/exampleGoapAgents03/MyState : ai/koog/agents/planner/goap/GoapAgentState {
+	public fun <init> (Ljava/lang/String;ZI)V
+	public synthetic fun <init> (Ljava/lang/String;ZIILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Z
+	public final fun component3 ()I
+	public final fun copy (Ljava/lang/String;ZI)Lai/koog/agents/example/exampleGoapAgents03/MyState;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleGoapAgents03/MyState;Ljava/lang/String;ZIILjava/lang/Object;)Lai/koog/agents/example/exampleGoapAgents03/MyState;
+	public fun equals (Ljava/lang/Object;)Z
+	public synthetic fun getAgentInput ()Ljava/lang/Object;
+	public fun getAgentInput ()Ljava/lang/String;
+	public final fun getAttempts ()I
+	public final fun getTaskComplete ()Z
+	public final fun getTopic ()Ljava/lang/String;
+	public fun hashCode ()I
+	public synthetic fun provideOutput ()Ljava/lang/Object;
+	public fun provideOutput ()Ljava/lang/String;
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleGraphAgents01/Example_graph_agents_01Kt {
+	public static final fun getCalculatorAgentStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleGraphAgents04/Example_graph_agents_04Kt {
+	public static final fun getCalculatorAgentStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+	public static final fun getMathAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleGraphAgents05/Example_graph_agents_05Kt {
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+}
+
+public final class ai/koog/agents/example/exampleGraphAgents05/MathTools : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> ()V
+	public final fun add (II)I
+	public fun asTools ()Ljava/util/List;
+	public fun getName ()Ljava/lang/String;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+	public final fun multiply (II)I
+}
+
+public final class ai/koog/agents/example/exampleGraphAgents06/Example_graph_agents_06Kt {
+	public static final fun getCalculatorAgentStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+	public static final fun getMathAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleGraphAgents06/MathTools : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> ()V
+	public final fun add (II)I
+	public fun asTools ()Ljava/util/List;
+	public fun getName ()Ljava/lang/String;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+	public final fun multiply (II)I
+}
+
+public final class ai/koog/agents/example/exampleGraphAgents07/Example_graph_agents_07Kt {
+	public static final fun getCalculatorAgentStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+	public static final fun getMathAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleGraphAgents07/MathTools : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> ()V
+	public final fun add (II)I
+	public fun asTools ()Ljava/util/List;
+	public fun getName ()Ljava/lang/String;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+	public final fun multiply (II)I
+}
+
+public final class ai/koog/agents/example/exampleHandlingFailures01/Example_handling_failures_01Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleHandlingFailures02/Example_handling_failures_02Kt {
+	public static final fun getApiKey ()Ljava/lang/String;
+	public static final fun getClient ()Lai/koog/prompt/executor/clients/openai/OpenAILLMClient;
+	public static final fun getConservativeClient ()Lai/koog/prompt/executor/clients/retry/RetryingLLMClient;
+}
+
+public final class ai/koog/agents/example/exampleHandlingFailures03/Example_handling_failures_03Kt {
+	public static final fun getApiKey ()Ljava/lang/String;
+	public static final fun getClient ()Lai/koog/prompt/executor/clients/openai/OpenAILLMClient;
+	public static final fun getCustomClient ()Lai/koog/prompt/executor/clients/retry/RetryingLLMClient;
+}
+
+public final class ai/koog/agents/example/exampleHandlingFailures04/Example_handling_failures_04Kt {
+	public static final fun getConfig ()Lai/koog/prompt/executor/clients/retry/RetryConfig;
+}
+
+public final class ai/koog/agents/example/exampleHandlingFailures05/Example_handling_failures_05Kt {
+	public static final fun getConfig ()Lai/koog/prompt/executor/clients/retry/RetryConfig;
+}
+
+public final class ai/koog/agents/example/exampleHandlingFailures06/Example_handling_failures_06Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleHandlingFailures07/Example_handling_failures_07Kt {
+	public static final fun getExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun getMultiExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun getResilientClient ()Lai/koog/prompt/executor/clients/retry/RetryingLLMClient;
+}
+
+public final class ai/koog/agents/example/exampleHandlingFailures08/Example_handling_failures_08Kt {
+	public static final fun getApiKey ()Ljava/lang/String;
+	public static final fun getClient ()Lai/koog/prompt/executor/clients/openai/OpenAILLMClient;
+}
+
+public final class ai/koog/agents/example/exampleHandlingFailures09/Example_handling_failures_09Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression01/Example_history_compression_01Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression02/Example_history_compression_02Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression03/Example_history_compression_03Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression04/Example_history_compression_04Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression05/Example_history_compression_05Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression06/Example_history_compression_06Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression07/Example_history_compression_07Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression08/Example_history_compression_08Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression09/Example_history_compression_09Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression10/Example_history_compression_10Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression11/Example_history_compression_11Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression12/MyCustomCompressionStrategy : ai/koog/agents/core/dsl/extension/HistoryCompressionStrategy {
+	public fun <init> ()V
+	public fun compress (Lai/koog/agents/core/agent/session/AIAgentLLMWriteSession;Ljava/util/List;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression13/Example_history_compression_13Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression14/Example_history_compression_14Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression15/Example_history_compression_15Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleHistoryCompression16/Example_history_compression_16Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleLangfuseExporter01/Example_langfuse_exporter_01Kt {
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleLangfuseExporter02/Example_langfuse_exporter_02Kt {
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun main ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleLlmBasedPlanners01/Example_llm_based_planners_01Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/planner/PlannerAIAgent;
+	public static final fun getAgentConfig ()Lai/koog/agents/core/agent/config/AIAgentConfig;
+	public static final fun getPlanner ()Lai/koog/agents/planner/llm/SimpleLLMPlanner;
+	public static final fun getStrategy ()Lai/koog/agents/core/planner/AIAgentPlannerStrategy;
+	public static final fun main (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleLlmClients01/Example_llm_clients_01Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleLlmClients02/Example_llm_clients_02Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleLlmClients03/Example_llm_clients_03Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleLlmClients04/Example_llm_clients_04Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleLlmClients05/Example_llm_clients_05Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleLlmClients06/Example_llm_clients_06Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters01/Example_llm_parameters_01Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters02/Example_llm_parameters_02Kt {
+	public static final fun getCalculatorTool ()Lai/koog/agents/ext/tool/SayToUser;
+	public static final fun getSearchTool ()Lai/koog/agents/ext/tool/SayToUser;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+	public static final fun getWeatherTool ()Lai/koog/agents/ext/tool/SayToUser;
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters03/Example_llm_parameters_03Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters04/Example_llm_parameters_04Kt {
+	public static final fun getJsonParams ()Lai/koog/prompt/params/LLMParams;
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters05/Example_llm_parameters_05Kt {
+	public static final fun getStandardJsonParams ()Lai/koog/prompt/params/LLMParams;
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters06/Example_llm_parameters_06Kt {
+	public static final fun getSpecificToolParams ()Lai/koog/prompt/params/LLMParams;
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters07/Example_llm_parameters_07Kt {
+	public static final fun getOpenRouterParams ()Lai/koog/prompt/executor/clients/openrouter/OpenRouterParams;
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters08/Example_llm_parameters_08Kt {
+	public static final fun getBasicParams ()Lai/koog/prompt/params/LLMParams;
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters09/Example_llm_parameters_09Kt {
+	public static final fun getOpenAIReasoningEffortParams ()Lai/koog/prompt/executor/clients/openai/OpenAIChatParams;
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters10/Example_llm_parameters_10Kt {
+	public static final fun getOpenAIStatelessReasoningParams ()Lai/koog/prompt/executor/clients/openai/OpenAIResponsesParams;
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters11/Example_llm_parameters_11Kt {
+	public static final fun getCustomParams ()Lai/koog/prompt/params/LLMParams;
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters12/Example_llm_parameters_12Kt {
+	public static final fun getDefaultParams ()Lai/koog/prompt/params/LLMParams;
+	public static final fun getOverrideParams ()Lai/koog/prompt/params/LLMParams;
+}
+
+public final class ai/koog/agents/example/exampleLlmParameters13/Example_llm_parameters_13Kt {
+	public static final fun getOverrideParams ()Lai/koog/prompt/params/LLMParams;
+}
+
+public final class ai/koog/agents/example/exampleLlmResponseCaching01/Example_llm_response_caching_01Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleModelCapabilities01/Example_model_capabilities_01Kt {
+	public static final fun getBasicModel ()Lai/koog/prompt/llm/LLModel;
+}
+
+public final class ai/koog/agents/example/exampleModelCapabilities02/Example_model_capabilities_02Kt {
+	public static final fun getVisionModel ()Lai/koog/prompt/llm/LLModel;
+}
+
+public final class ai/koog/agents/example/exampleModelCapabilities03/Example_model_capabilities_03Kt {
+	public static final fun getAudioModel ()Lai/koog/prompt/llm/LLModel;
+}
+
+public final class ai/koog/agents/example/exampleModelCapabilities04/Example_model_capabilities_04Kt {
+	public static final fun getMetaModel ()Lai/koog/prompt/llm/LLModel;
+}
+
+public final class ai/koog/agents/example/exampleModelCapabilities05/Example_model_capabilities_05Kt {
+	public static final fun getBasicModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun getHasFullJsonSupport ()Z
+	public static final fun getJsonCapability ()Lai/koog/prompt/llm/LLMCapability$Schema$JSON;
+	public static final fun getSupportsTools ()Z
+	public static final fun getSupportsVideo ()Z
+	public static final fun getVisionModel ()Lai/koog/prompt/llm/LLModel;
+}
+
+public final class ai/koog/agents/example/exampleModelContextProtocol01/Example_model_context_protocol_01Kt {
+	public static final fun getProcess ()Ljava/lang/Process;
+	public static final fun getTransport ()Lio/modelcontextprotocol/kotlin/sdk/client/StdioClientTransport;
+}
+
+public final class ai/koog/agents/example/exampleModelContextProtocol02/Example_model_context_protocol_02Kt {
+	public static final fun getTransport ()Lio/modelcontextprotocol/kotlin/sdk/client/SseClientTransport;
+}
+
+public final class ai/koog/agents/example/exampleModelContextProtocol03/Example_model_context_protocol_03Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleModelContextProtocol04/Example_model_context_protocol_04Kt {
+	public static final fun getExistingMcpClient ()Lio/modelcontextprotocol/kotlin/sdk/client/Client;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleModelContextProtocol05/Example_model_context_protocol_05Kt {
+	public static final fun getExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleModelContextProtocol06/Example_model_context_protocol_06Kt {
+	public static final field googleMapsApiKey Ljava/lang/String;
+	public static final field openAIApiToken Ljava/lang/String;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleModelContextProtocol07/Example_model_context_protocol_07Kt {
+	public static final fun getOpenAIApiToken ()Ljava/lang/String;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleMultimodalContent01/Example_multimodal_content_01Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleMultimodalContent02/Example_multimodal_content_02Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleMultimodalContent03/Example_multimodal_content_03Kt {
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent01/Example_nodes_and_component_01Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent02/Example_nodes_and_component_02Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent03/Example_nodes_and_component_03Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent04/Example_nodes_and_component_04Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent05/Example_nodes_and_component_05Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent06/Example_nodes_and_component_06Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent07/Example_nodes_and_component_07Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent08/Example_nodes_and_component_08Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent09/Example_nodes_and_component_09Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent10/Example_nodes_and_component_10Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent12/Example_nodes_and_component_12Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent13/Example_nodes_and_component_13Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent14/Example_nodes_and_component_14Kt {
+	public static final fun getCalculatorTool ()Lai/koog/agents/ext/tool/SayToUser;
+	public static final fun getSearchTool ()Lai/koog/agents/ext/tool/SayToUser;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+	public static final fun getWeatherTool ()Lai/koog/agents/ext/tool/SayToUser;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent15/Example_nodes_and_component_15Kt {
+	public static final fun getAnalyzeTool ()Lai/koog/agents/ext/tool/SayToUser;
+	public static final fun getReadFileTool ()Lai/koog/agents/ext/tool/SayToUser;
+	public static final fun getRunTestsTool ()Lai/koog/agents/ext/tool/SayToUser;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent16/Example_nodes_and_component_16Kt {
+	public static final fun singleRunStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent17/Example_nodes_and_component_17Kt {
+	public static final fun toolBasedStrategy (Ljava/lang/String;Lai/koog/agents/core/tools/ToolRegistry;)Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleNodesAndComponent18/Example_nodes_and_component_18Kt {
+	public static final fun getAgentStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleOpentelemetrySupport01/Example_opentelemetry_support_01Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/exampleOpentelemetrySupport02/Example_opentelemetry_support_02Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/exampleOpentelemetrySupport03/Example_opentelemetry_support_03Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/exampleOpentelemetrySupport04/Example_opentelemetry_support_04Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/exampleOpentelemetrySupport05/Example_opentelemetry_support_05Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/exampleOpentelemetrySupport06/Example_opentelemetry_support_06Kt {
+	public static final field AUTH_STRING Ljava/lang/String;
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/exampleOpentelemetrySupport07/Example_opentelemetry_support_07Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/exampleOpentelemetrySupport08/Example_opentelemetry_support_08Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/exampleOpentelemetrySupport09/Example_opentelemetry_support_09Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/exampleOpentelemetrySupport10/Example_opentelemetry_support_10Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/exampleOpentelemetrySupport11/Example_opentelemetry_support_11Kt {
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleOpentelemetrySupport12/Example_opentelemetry_support_12Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleParallelNodeExecution01/Example_parallel_node_execution_01Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleParallelNodeExecution02/Example_parallel_node_execution_02Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleParallelNodeExecution03/Example_parallel_node_execution_03Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleParallelNodeExecution04/Example_parallel_node_execution_04Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleParallelNodeExecution05/Example_parallel_node_execution_05Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleParallelNodeExecution05/JokeRating {
+	public fun <init> (I)V
+	public final fun component1 ()I
+	public final fun copy (I)Lai/koog/agents/example/exampleParallelNodeExecution05/JokeRating;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleParallelNodeExecution05/JokeRating;IILjava/lang/Object;)Lai/koog/agents/example/exampleParallelNodeExecution05/JokeRating;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBestJokeIndex ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleParallelNodeExecution06/Example_parallel_node_execution_06Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleParallelNodeExecution07/Example_parallel_node_execution_07Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleParallelNodeExecution07/JokeRating {
+	public fun <init> (I)V
+	public final fun component1 ()I
+	public final fun copy (I)Lai/koog/agents/example/exampleParallelNodeExecution07/JokeRating;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleParallelNodeExecution07/JokeRating;IILjava/lang/Object;)Lai/koog/agents/example/exampleParallelNodeExecution07/JokeRating;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBestJokeIndex ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/examplePredefinedStrategies01/Example_predefined_strategies_01Kt {
+	public static final fun getApiKey ()Ljava/lang/String;
+	public static final fun getChatAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+}
+
+public final class ai/koog/agents/example/examplePredefinedStrategies02/Example_predefined_strategies_02Kt {
+	public static final fun getApiKey ()Ljava/lang/String;
+	public static final fun getChatAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+	public static final fun main (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/examplePredefinedStrategies03/Example_predefined_strategies_03Kt {
+	public static final fun getApiKey ()Ljava/lang/String;
+	public static final fun getModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun getReActAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+}
+
+public final class ai/koog/agents/example/examplePredefinedStrategies04/Example_predefined_strategies_04Kt {
+	public static final fun getApiKey ()Ljava/lang/String;
+	public static final fun getBankingAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+	public static final fun main (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/examplePromptExecutors01/Example_prompt_executors_01Kt {
+	public static final fun getOpenAIClient ()Lai/koog/prompt/executor/clients/openai/OpenAILLMClient;
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/examplePromptExecutors02/Example_prompt_executors_02Kt {
+	public static final fun getMultiExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun getOllamaClient ()Lai/koog/prompt/executor/ollama/client/OllamaClient;
+	public static final fun getOpenAIClient ()Lai/koog/prompt/executor/clients/openai/OpenAILLMClient;
+}
+
+public final class ai/koog/agents/example/examplePromptExecutors03/Example_prompt_executors_03Kt {
+	public static final fun getAnthropic ()Lai/koog/prompt/executor/clients/anthropic/AnthropicLLMClient;
+	public static final fun getOpenAI1 ()Lai/koog/prompt/executor/clients/openai/OpenAILLMClient;
+	public static final fun getOpenAI2 ()Lai/koog/prompt/executor/clients/openai/OpenAILLMClient;
+	public static final fun getRouter ()Lai/koog/prompt/executor/llms/RoundRobinRouter;
+	public static final fun getRoutingExecutor ()Lai/koog/prompt/executor/llms/RoutingLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/examplePromptExecutors04/Example_prompt_executors_04Kt {
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+}
+
+public final class ai/koog/agents/example/examplePromptExecutors05/Example_prompt_executors_05Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/examplePromptExecutors06/Example_prompt_executors_06Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/examplePromptExecutors07/Example_prompt_executors_07Kt {
+	public static final fun getMultiExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun getOllamaClient ()Lai/koog/prompt/executor/ollama/client/OllamaClient;
+	public static final fun getOpenAIClient ()Lai/koog/prompt/executor/clients/openai/OpenAILLMClient;
+}
+
+public final class ai/koog/agents/example/examplePromptExecutors08/Example_prompt_executors_08Kt {
+	public static final fun getMultiExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun getOllamaClient ()Lai/koog/prompt/executor/ollama/client/OllamaClient;
+	public static final fun getOpenAIClient ()Lai/koog/prompt/executor/clients/openai/OpenAILLMClient;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/examplePrompts01/Example_prompts_01Kt {
+	public static final fun getMyPrompt ()Lai/koog/prompt/Prompt;
+}
+
+public final class ai/koog/agents/example/examplePrompts02/Example_prompts_02Kt {
+	public static final fun getApiKey ()Ljava/lang/String;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleRetrievalAugmentedGeneration01/Example_retrieval_augmented_generation_01Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleRetrievalAugmentedGeneration02/Example_retrieval_augmented_generation_02Kt {
+	public static final field apiKey Ljava/lang/String;
+	public static final fun getDocumentEmbedder ()Lai/koog/rag/vector/embedder/JVMTextDocumentEmbedder;
+	public static final fun getEmbedder ()Lai/koog/embeddings/local/LLMEmbedder;
+	public static final fun getRagStorage ()Lai/koog/rag/base/storage/SearchStorage;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+	public static final fun searchKnowledgeBase (Ljava/lang/String;ILkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleSerialization01/Example_serialization_01Kt {
+	public static final fun getBackToString ()Ljava/lang/String;
+	public static final fun getElement ()Lai/koog/serialization/JSONElement;
+	public static final fun getJson ()Ljava/lang/String;
+	public static final fun getJsonElement ()Lai/koog/serialization/JSONElement;
+	public static final fun getJsonString ()Ljava/lang/String;
+	public static final fun getSerializer ()Lai/koog/serialization/JSONSerializer;
+	public static final fun getUser ()Lai/koog/agents/example/exampleSerialization01/User;
+	public static final fun getUserFromElement ()Lai/koog/agents/example/exampleSerialization01/User;
+}
+
+public final class ai/koog/agents/example/exampleSerialization01/User {
+	public static final field Companion Lai/koog/agents/example/exampleSerialization01/User$Companion;
+	public fun <init> (Ljava/lang/String;I)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()I
+	public final fun copy (Ljava/lang/String;I)Lai/koog/agents/example/exampleSerialization01/User;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleSerialization01/User;Ljava/lang/String;IILjava/lang/Object;)Lai/koog/agents/example/exampleSerialization01/User;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAge ()I
+	public final fun getName ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleSerialization01/User$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleSerialization01/User$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleSerialization01/User;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleSerialization01/User;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleSerialization01/User$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleSerialization02/Example_serialization_02Kt {
+	public static final fun getTokenGeneric ()Lai/koog/serialization/KotlinTypeToken;
+	public static final fun getTokenKClass ()Lai/koog/serialization/KotlinClassToken;
+	public static final fun getTokenReified ()Lai/koog/serialization/KotlinTypeToken;
+}
+
+public final class ai/koog/agents/example/exampleSerialization02/MyClass {
+	public fun <init> (Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;)Lai/koog/agents/example/exampleSerialization02/MyClass;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleSerialization02/MyClass;Ljava/lang/String;ILjava/lang/Object;)Lai/koog/agents/example/exampleSerialization02/MyClass;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getValue ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleSerialization03/Example_serialization_03Kt {
+	public static final fun getAge ()Ljava/lang/Integer;
+	public static final fun getArr ()Lai/koog/serialization/JSONArray;
+	public static final fun getNameContent ()Ljava/lang/String;
+	public static final fun getObj ()Lai/koog/serialization/JSONObject;
+}
+
+public final class ai/koog/agents/example/exampleSerialization04/Example_serialization_04Kt {
+	public static final fun getCustomSerializer ()Lai/koog/serialization/kotlinx/KotlinxSerializer;
+	public static final fun getDefaultSerializer ()Lai/koog/serialization/kotlinx/KotlinxSerializer;
+}
+
+public final class ai/koog/agents/example/exampleSerialization05/Example_serialization_05Kt {
+	public static final fun getKoogJson ()Lai/koog/serialization/JSONElement;
+	public static final fun getKoogJsonConverted ()Lai/koog/serialization/JSONElement;
+	public static final fun getKotlinxJson ()Lkotlinx/serialization/json/JsonElement;
+}
+
+public final class ai/koog/agents/example/exampleSerialization06/Example_serialization_06Kt {
+	public static final fun getCustomSerializer ()Lai/koog/serialization/jackson/JacksonSerializer;
+	public static final fun getDefaultSerializer ()Lai/koog/serialization/jackson/JacksonSerializer;
+}
+
+public final class ai/koog/agents/example/exampleSerialization07/Example_serialization_07Kt {
+	public static final fun getJacksonJson ()Lcom/fasterxml/jackson/databind/JsonNode;
+	public static final fun getKoogJson ()Lai/koog/serialization/JSONElement;
+	public static final fun getKoogJsonConverted ()Lai/koog/serialization/JSONElement;
+}
+
+public final class ai/koog/agents/example/exampleSerialization08/Example_serialization_08Kt {
+	public static final fun getAgentConfig ()Lai/koog/agents/core/agent/config/AIAgentConfig;
+}
+
+public final class ai/koog/agents/example/exampleSessions01/Example_sessions_01Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleSessions02/Example_sessions_02Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleSessions03/Example_sessions_03Kt {
+	public static final fun getNewTools ()Ljava/util/List;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleSessions04/Example_sessions_04Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleSessions05/Example_sessions_05Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleSessions06/Example_sessions_06Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleSessions07/Example_sessions_07Kt {
+	public static final fun getMyToolResult ()Lai/koog/prompt/message/MessagePart$Tool$Result;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleSessions08/Example_sessions_08Kt {
+	public static final fun getFilteredMessages ()Ljava/util/List;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleSessions09/Example_sessions_09Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleSessions10/Example_sessions_10Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleSessions11/Example_sessions_11Kt {
+	public static final fun getMyArgs ()Lai/koog/agents/ext/tool/AskUser$Args;
+	public static final fun getMyTool ()Lai/koog/agents/ext/tool/AskUser;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleSessions12/Example_sessions_12Kt {
+	public static final fun getData ()Ljava/lang/String;
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+	public static final fun parseDataToArgs (Ljava/lang/String;)Lkotlinx/coroutines/flow/Flow;
+}
+
+public final class ai/koog/agents/example/exampleSessions13/Example_sessions_13Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi01/Example_streaming_api_01Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi02/Example_streaming_api_02Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi03/Example_streaming_api_03Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi04/Example_streaming_api_04Kt {
+	public static final fun installStreamingApi (Lai/koog/agents/core/agent/GraphAIAgent$FeatureContext;)V
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi05/Book {
+	public static final field Companion Lai/koog/agents/example/exampleStreamingApi05/Book$Companion;
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lai/koog/agents/example/exampleStreamingApi05/Book;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleStreamingApi05/Book;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lai/koog/agents/example/exampleStreamingApi05/Book;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAuthor ()Ljava/lang/String;
+	public final fun getDescription ()Ljava/lang/String;
+	public final fun getTitle ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleStreamingApi05/Book$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleStreamingApi05/Book$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleStreamingApi05/Book;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleStreamingApi05/Book;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi05/Book$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi06/Example_streaming_api_06Kt {
+	public static final fun markdownBookDefinition ()Lai/koog/prompt/structure/markdown/MarkdownStructureDefinition;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi07/Example_streaming_api_07Kt {
+	public static final fun parseMarkdownStreamToBooks (Lkotlinx/coroutines/flow/Flow;)Lkotlinx/coroutines/flow/Flow;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi08/Example_streaming_api_08Kt {
+	public static final fun parseMarkdownStreamToBooks (Lkotlinx/coroutines/flow/Flow;)Lkotlinx/coroutines/flow/Flow;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi09/Example_streaming_api_09Kt {
+	public static final fun getAgentStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi10/Book {
+	public static final field Companion Lai/koog/agents/example/exampleStreamingApi10/Book$Companion;
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lai/koog/agents/example/exampleStreamingApi10/Book;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleStreamingApi10/Book;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lai/koog/agents/example/exampleStreamingApi10/Book;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAuthor ()Ljava/lang/String;
+	public final fun getDescription ()Ljava/lang/String;
+	public final fun getTitle ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleStreamingApi10/Book$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleStreamingApi10/Book$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleStreamingApi10/Book;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleStreamingApi10/Book;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi10/Book$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi10/BookTool : ai/koog/agents/core/tools/SimpleTool {
+	public static final field Companion Lai/koog/agents/example/exampleStreamingApi10/BookTool$Companion;
+	public static final field NAME Ljava/lang/String;
+	public fun <init> ()V
+	public fun execute (Lai/koog/agents/example/exampleStreamingApi05/Book;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi10/BookTool$Companion {
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi11/Example_streaming_api_11Kt {
+	public static final fun getAgentStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApi12/Example_streaming_api_12Kt {
+	public static final fun getRunner ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+}
+
+public final class ai/koog/agents/example/exampleStreamingApiReasoning01/Example_streaming_api_reasoning_01Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData01/WeatherForecast {
+	public static final field Companion Lai/koog/agents/example/exampleStructuredData01/WeatherForecast$Companion;
+	public fun <init> (ILjava/lang/String;I)V
+	public final fun component1 ()I
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()I
+	public final fun copy (ILjava/lang/String;I)Lai/koog/agents/example/exampleStructuredData01/WeatherForecast;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleStructuredData01/WeatherForecast;ILjava/lang/String;IILjava/lang/Object;)Lai/koog/agents/example/exampleStructuredData01/WeatherForecast;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getConditions ()Ljava/lang/String;
+	public final fun getPrecipitation ()I
+	public final fun getTemperature ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleStructuredData01/WeatherForecast$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleStructuredData01/WeatherForecast$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleStructuredData01/WeatherForecast;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleStructuredData01/WeatherForecast;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData01/WeatherForecast$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData02/WeatherForecast {
+	public static final field Companion Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$Companion;
+	public fun <init> (Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon;)V
+	public final fun component1 ()Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon;
+	public final fun copy (Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon;)Lai/koog/agents/example/exampleStructuredData02/WeatherForecast;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleStructuredData02/WeatherForecast;Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon;ILjava/lang/Object;)Lai/koog/agents/example/exampleStructuredData02/WeatherForecast;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getLatLon ()Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleStructuredData02/WeatherForecast$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleStructuredData02/WeatherForecast;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleStructuredData02/WeatherForecast;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData02/WeatherForecast$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon {
+	public static final field Companion Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon$Companion;
+	public fun <init> (DD)V
+	public final fun component1 ()D
+	public final fun component2 ()D
+	public final fun copy (DD)Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon;DDILjava/lang/Object;)Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getLat ()D
+	public final fun getLon ()D
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData02/WeatherForecast$LatLon$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData03/WeatherForecast {
+	public static final field Companion Lai/koog/agents/example/exampleStructuredData03/WeatherForecast$Companion;
+	public fun <init> (Ljava/util/List;Ljava/util/Map;)V
+	public final fun component1 ()Ljava/util/List;
+	public final fun component2 ()Ljava/util/Map;
+	public final fun copy (Ljava/util/List;Ljava/util/Map;)Lai/koog/agents/example/exampleStructuredData03/WeatherForecast;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleStructuredData03/WeatherForecast;Ljava/util/List;Ljava/util/Map;ILjava/lang/Object;)Lai/koog/agents/example/exampleStructuredData03/WeatherForecast;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getNews ()Ljava/util/List;
+	public final fun getSources ()Ljava/util/Map;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleStructuredData03/WeatherForecast$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleStructuredData03/WeatherForecast$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleStructuredData03/WeatherForecast;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleStructuredData03/WeatherForecast;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData03/WeatherForecast$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData03/WeatherNews {
+	public static final field Companion Lai/koog/agents/example/exampleStructuredData03/WeatherNews$Companion;
+	public fun <init> (D)V
+	public final fun component1 ()D
+	public final fun copy (D)Lai/koog/agents/example/exampleStructuredData03/WeatherNews;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleStructuredData03/WeatherNews;DILjava/lang/Object;)Lai/koog/agents/example/exampleStructuredData03/WeatherNews;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getTemperature ()D
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleStructuredData03/WeatherNews$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleStructuredData03/WeatherNews$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleStructuredData03/WeatherNews;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleStructuredData03/WeatherNews;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData03/WeatherNews$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData03/WeatherSource {
+	public static final field Companion Lai/koog/agents/example/exampleStructuredData03/WeatherSource$Companion;
+	public fun <init> (Lio/ktor/http/Url;)V
+	public final fun component1 ()Lio/ktor/http/Url;
+	public final fun copy (Lio/ktor/http/Url;)Lai/koog/agents/example/exampleStructuredData03/WeatherSource;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleStructuredData03/WeatherSource;Lio/ktor/http/Url;ILjava/lang/Object;)Lai/koog/agents/example/exampleStructuredData03/WeatherSource;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getUrl ()Lio/ktor/http/Url;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleStructuredData03/WeatherSource$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleStructuredData03/WeatherSource$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleStructuredData03/WeatherSource;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleStructuredData03/WeatherSource;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData03/WeatherSource$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData04/Pollution : java/lang/Enum {
+	public static final field Companion Lai/koog/agents/example/exampleStructuredData04/Pollution$Companion;
+	public static final field High Lai/koog/agents/example/exampleStructuredData04/Pollution;
+	public static final field Low Lai/koog/agents/example/exampleStructuredData04/Pollution;
+	public static final field Medium Lai/koog/agents/example/exampleStructuredData04/Pollution;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lai/koog/agents/example/exampleStructuredData04/Pollution;
+	public static fun values ()[Lai/koog/agents/example/exampleStructuredData04/Pollution;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData04/Pollution$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public abstract class ai/koog/agents/example/exampleStructuredData05/WeatherAlert {
+	public static final field Companion Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Companion;
+	public synthetic fun <init> (ILkotlinx/serialization/internal/SerializationConstructorMarker;)V
+	public abstract fun getMessage ()Ljava/lang/String;
+	public abstract fun getSeverity ()Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;
+	public static final synthetic fun write$Self (Lai/koog/agents/example/exampleStructuredData05/WeatherAlert;Lkotlinx/serialization/encoding/CompositeEncoder;Lkotlinx/serialization/descriptors/SerialDescriptor;)V
+}
+
+public final class ai/koog/agents/example/exampleStructuredData05/WeatherAlert$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData05/WeatherAlert$FloodAlert : ai/koog/agents/example/exampleStructuredData05/WeatherAlert {
+	public static final field Companion Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$FloodAlert$Companion;
+	public fun <init> (Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;Ljava/lang/String;D)V
+	public final fun component1 ()Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()D
+	public final fun copy (Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;Ljava/lang/String;D)Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$FloodAlert;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$FloodAlert;Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;Ljava/lang/String;DILjava/lang/Object;)Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$FloodAlert;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getExpectedRainfall ()D
+	public fun getMessage ()Ljava/lang/String;
+	public fun getSeverity ()Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleStructuredData05/WeatherAlert$FloodAlert$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$FloodAlert$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$FloodAlert;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$FloodAlert;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData05/WeatherAlert$FloodAlert$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity : java/lang/Enum {
+	public static final field Companion Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity$Companion;
+	public static final field Extreme Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;
+	public static final field Low Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;
+	public static final field Moderate Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;
+	public static final field Severe Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;
+	public static fun values ()[Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData05/WeatherAlert$StormAlert : ai/koog/agents/example/exampleStructuredData05/WeatherAlert {
+	public static final field Companion Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$StormAlert$Companion;
+	public fun <init> (Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;Ljava/lang/String;D)V
+	public final fun component1 ()Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()D
+	public final fun copy (Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;Ljava/lang/String;D)Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$StormAlert;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$StormAlert;Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;Ljava/lang/String;DILjava/lang/Object;)Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$StormAlert;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun getMessage ()Ljava/lang/String;
+	public fun getSeverity ()Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$Severity;
+	public final fun getWindSpeed ()D
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleStructuredData05/WeatherAlert$StormAlert$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$StormAlert$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$StormAlert;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleStructuredData05/WeatherAlert$StormAlert;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData05/WeatherAlert$StormAlert$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData06/Example_structured_data_06Kt {
+	public static final fun getExampleForecasts ()Ljava/util/List;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData07/Example_structured_data_07Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleStructuredData08/Example_structured_data_08Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData09/Example_structured_data_09Kt {
+	public static final fun getAgentStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData10/Example_structured_data_10Kt {
+	public static final fun getAgentStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData11/Example_structured_data_11Kt {
+	public static final fun getToken ()Ljava/lang/String;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleStructuredData11/SimpleWeatherForecast {
+	public static final field Companion Lai/koog/agents/example/exampleStructuredData11/SimpleWeatherForecast$Companion;
+	public fun <init> (Ljava/lang/String;ILjava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()I
+	public final fun component3 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;ILjava/lang/String;)Lai/koog/agents/example/exampleStructuredData11/SimpleWeatherForecast;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleStructuredData11/SimpleWeatherForecast;Ljava/lang/String;ILjava/lang/String;ILjava/lang/Object;)Lai/koog/agents/example/exampleStructuredData11/SimpleWeatherForecast;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getConditions ()Ljava/lang/String;
+	public final fun getLocation ()Ljava/lang/String;
+	public final fun getTemperature ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleStructuredData11/SimpleWeatherForecast$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleStructuredData11/SimpleWeatherForecast$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleStructuredData11/SimpleWeatherForecast;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleStructuredData11/SimpleWeatherForecast;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData11/SimpleWeatherForecast$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleStructuredData12/Example_structured_data_12Kt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTesting02/Example_testing_02Kt {
+	public static final fun getMockLLMApi ()Lai/koog/prompt/executor/model/PromptExecutor;
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+}
+
+public final class ai/koog/agents/example/exampleTesting03/AnalyzeTool : ai/koog/agents/core/tools/Tool {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting03/AnalyzeTool;
+	public fun execute (Lai/koog/agents/example/exampleTesting03/AnalyzeTool$Args;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleTesting03/AnalyzeTool$Args {
+	public static final field Companion Lai/koog/agents/example/exampleTesting03/AnalyzeTool$Args$Companion;
+	public fun <init> (Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;)Lai/koog/agents/example/exampleTesting03/AnalyzeTool$Args;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleTesting03/AnalyzeTool$Args;Ljava/lang/String;ILjava/lang/Object;)Lai/koog/agents/example/exampleTesting03/AnalyzeTool$Args;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getQuery ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleTesting03/AnalyzeTool$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting03/AnalyzeTool$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleTesting03/AnalyzeTool$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleTesting03/AnalyzeTool$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting03/AnalyzeTool$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting03/CreateTool : ai/koog/agents/core/tools/Tool {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting03/CreateTool;
+	public fun execute (Lai/koog/agents/example/exampleTesting03/CreateTool$Args;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleTesting03/CreateTool$Args {
+	public static final field Companion Lai/koog/agents/example/exampleTesting03/CreateTool$Args$Companion;
+	public fun <init> (Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;)Lai/koog/agents/example/exampleTesting03/CreateTool$Args;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleTesting03/CreateTool$Args;Ljava/lang/String;ILjava/lang/Object;)Lai/koog/agents/example/exampleTesting03/CreateTool$Args;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getMessage ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleTesting03/CreateTool$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting03/CreateTool$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleTesting03/CreateTool$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleTesting03/CreateTool$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting03/CreateTool$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting03/Example_testing_03Kt {
+	public static final fun getMockLLMApi ()Lai/koog/prompt/executor/model/PromptExecutor;
+}
+
+public final class ai/koog/agents/example/exampleTesting03/SearchTool : ai/koog/agents/core/tools/Tool {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting03/SearchTool;
+	public fun execute (Lai/koog/agents/example/exampleTesting03/SearchTool$Args;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleTesting03/SearchTool$Args {
+	public static final field Companion Lai/koog/agents/example/exampleTesting03/SearchTool$Args$Companion;
+	public fun <init> (Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;)Lai/koog/agents/example/exampleTesting03/SearchTool$Args;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleTesting03/SearchTool$Args;Ljava/lang/String;ILjava/lang/Object;)Lai/koog/agents/example/exampleTesting03/SearchTool$Args;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getQuery ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleTesting03/SearchTool$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting03/SearchTool$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleTesting03/SearchTool$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleTesting03/SearchTool$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting03/SearchTool$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting04/Example_testing_04Kt {
+	public static final fun getLlmModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTesting05/Example_testing_05Kt {
+	public static final fun getLlmModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTesting06/Example_testing_06Kt {
+	public static final fun getLlmModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTesting07/Example_testing_07Kt {
+	public static final fun getLlmModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTesting07/SolveTool : ai/koog/agents/core/tools/SimpleTool {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting07/SolveTool;
+	public fun execute (Lai/koog/agents/example/exampleTesting07/SolveTool$Args;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleTesting07/SolveTool$Args {
+	public static final field Companion Lai/koog/agents/example/exampleTesting07/SolveTool$Args$Companion;
+	public fun <init> (Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;)Lai/koog/agents/example/exampleTesting07/SolveTool$Args;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleTesting07/SolveTool$Args;Ljava/lang/String;ILjava/lang/Object;)Lai/koog/agents/example/exampleTesting07/SolveTool$Args;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getMessage ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleTesting07/SolveTool$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting07/SolveTool$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleTesting07/SolveTool$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleTesting07/SolveTool$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting07/SolveTool$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting08/AnalyzeTool : ai/koog/agents/core/tools/Tool {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting08/AnalyzeTool;
+	public fun execute (Lai/koog/agents/example/exampleTesting08/AnalyzeTool$Args;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleTesting08/AnalyzeTool$Args {
+	public static final field Companion Lai/koog/agents/example/exampleTesting08/AnalyzeTool$Args$Companion;
+	public fun <init> (Ljava/lang/String;I)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()I
+	public final fun copy (Ljava/lang/String;I)Lai/koog/agents/example/exampleTesting08/AnalyzeTool$Args;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleTesting08/AnalyzeTool$Args;Ljava/lang/String;IILjava/lang/Object;)Lai/koog/agents/example/exampleTesting08/AnalyzeTool$Args;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDepth ()I
+	public final fun getQuery ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleTesting08/AnalyzeTool$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting08/AnalyzeTool$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleTesting08/AnalyzeTool$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleTesting08/AnalyzeTool$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting08/AnalyzeTool$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting08/Example_testing_08Kt {
+	public static final fun getLlmModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTesting09/AnalyzeTool : ai/koog/agents/core/tools/Tool {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting09/AnalyzeTool;
+	public fun execute (Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Args;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleTesting09/AnalyzeTool$Args {
+	public static final field Companion Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Args$Companion;
+	public fun <init> (Ljava/lang/String;I)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()I
+	public final fun copy (Ljava/lang/String;I)Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Args;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Args;Ljava/lang/String;IILjava/lang/Object;)Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Args;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDepth ()I
+	public final fun getQuery ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleTesting09/AnalyzeTool$Args$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Args$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Args;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Args;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting09/AnalyzeTool$Args$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting09/AnalyzeTool$Result {
+	public static final field Companion Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Result$Companion;
+	public fun <init> (Ljava/lang/String;DLjava/util/Map;)V
+	public synthetic fun <init> (Ljava/lang/String;DLjava/util/Map;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()D
+	public final fun component3 ()Ljava/util/Map;
+	public final fun copy (Ljava/lang/String;DLjava/util/Map;)Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Result;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Result;Ljava/lang/String;DLjava/util/Map;ILjava/lang/Object;)Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Result;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAnalysis ()Ljava/lang/String;
+	public final fun getConfidence ()D
+	public final fun getMetadata ()Ljava/util/Map;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleTesting09/AnalyzeTool$Result$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Result$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Result;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleTesting09/AnalyzeTool$Result;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting09/AnalyzeTool$Result$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleTesting09/Example_testing_09Kt {
+	public static final fun getLlmModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTesting10/Example_testing_10Kt {
+	public static final fun getLlmModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTesting11/Example_testing_11Kt {
+	public static final fun getLlmModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTesting12/Example_testing_12Kt {
+	public static final fun getLlmModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTesting13/Example_testing_13Kt {
+	public static final fun getLlmModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTesting17/Example_testing_17Kt {
+	public static final fun getLlmModel ()Lai/koog/prompt/llm/LLModel;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTesting18/Example_testing_18Kt {
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/model/PromptExecutor;
+}
+
+public abstract interface class ai/koog/agents/example/exampleToolDescriptorSchemer01/ToolDescriptorSchemaGenerator {
+	public abstract fun generate (Lai/koog/agents/core/tools/ToolDescriptor;)Lkotlinx/serialization/json/JsonObject;
+}
+
+public final class ai/koog/agents/example/exampleToolDescriptorSchemer02/MinimalSchemer : ai/koog/agents/core/tools/serialization/ToolDescriptorSchemaGenerator {
+	public fun <init> ()V
+	public fun generate (Lai/koog/agents/core/tools/ToolDescriptor;)Lkotlinx/serialization/json/JsonObject;
+}
+
+public final class ai/koog/agents/example/exampleToolDescriptorSchemer03/Example_tool_descriptor_schemer_03Kt {
+	public static final fun getClient ()Lai/koog/prompt/executor/clients/openai/OpenAILLMClient;
+	public static final fun getGetUserTool ()Lai/koog/agents/core/tools/ToolDescriptor;
+	public static final fun getPrompt ()Lai/koog/prompt/Prompt;
+	public static final fun getResponses ()Lai/koog/prompt/message/Message$Assistant;
+}
+
+public final class ai/koog/agents/example/exampleToolDescriptorSchemer03/MinimalSchemer : ai/koog/prompt/executor/clients/openai/base/OpenAICompatibleToolDescriptorSchemaGenerator {
+	public fun <init> ()V
+	public fun generate (Lai/koog/agents/core/tools/ToolDescriptor;)Lkotlinx/serialization/json/JsonObject;
+}
+
+public final class ai/koog/agents/example/exampleToolDescriptorSchemer04/Example_tool_descriptor_schemer_04Kt {
+	public static final fun getJson ()Lkotlinx/serialization/json/Json;
+	public static final fun getSchema ()Lkotlinx/serialization/json/JsonObject;
+	public static final fun getUserTool ()Lai/koog/agents/core/tools/ToolDescriptor;
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview01/Example_tools_overview_01Kt {
+	public static final fun getMyTool ()Lai/koog/agents/example/exampleToolsOverview01/MyToolSet;
+	public static final fun getToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview01/MyToolSet : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> ()V
+	public fun asTools ()Ljava/util/List;
+	public fun getName ()Ljava/lang/String;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+	public final fun myTool ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview02/Example_tools_overview_02Kt {
+	public static final fun getFirstSampleTool ()Lai/koog/agents/example/exampleToolsOverview02/FirstToolSet;
+	public static final fun getFirstToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+	public static final fun getNewRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+	public static final fun getSecondSampleTool ()Lai/koog/agents/example/exampleToolsOverview02/SecondToolSet;
+	public static final fun getSecondToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview02/FirstToolSet : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> ()V
+	public fun asTools ()Ljava/util/List;
+	public final fun firstSampleTool ()Ljava/lang/String;
+	public fun getName ()Ljava/lang/String;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview02/SecondToolSet : ai/koog/agents/core/tools/reflect/ToolSet {
+	public fun <init> ()V
+	public fun asTools ()Ljava/util/List;
+	public fun getName ()Ljava/lang/String;
+	public fun getTool (Ljava/lang/String;)Lai/koog/agents/core/tools/reflect/ToolFromCallable;
+	public final fun secondSampleTool ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview03/Example_tools_overview_03Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview04/Book {
+	public static final field Companion Lai/koog/agents/example/exampleToolsOverview04/Book$Companion;
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lai/koog/agents/example/exampleToolsOverview04/Book;
+	public static synthetic fun copy$default (Lai/koog/agents/example/exampleToolsOverview04/Book;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lai/koog/agents/example/exampleToolsOverview04/Book;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAuthor ()Ljava/lang/String;
+	public final fun getDescription ()Ljava/lang/String;
+	public final fun getTitle ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final synthetic class ai/koog/agents/example/exampleToolsOverview04/Book$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lai/koog/agents/example/exampleToolsOverview04/Book$$serializer;
+	public final fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public final fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lai/koog/agents/example/exampleToolsOverview04/Book;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public final fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public final fun serialize (Lkotlinx/serialization/encoding/Encoder;Lai/koog/agents/example/exampleToolsOverview04/Book;)V
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview04/Book$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview04/BookTool : ai/koog/agents/core/tools/SimpleTool {
+	public static final field Companion Lai/koog/agents/example/exampleToolsOverview04/BookTool$Companion;
+	public static final field NAME Ljava/lang/String;
+	public fun <init> ()V
+	public fun execute (Lai/koog/agents/example/exampleToolsOverview04/Book;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public synthetic fun execute (Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview04/BookTool$Companion {
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview04/Example_tools_overview_04Kt {
+	public static final fun getStrategy ()Lai/koog/agents/core/agent/entity/AIAgentGraphStrategy;
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview05/Example_tools_overview_05Kt {
+	public static final field apiKey Ljava/lang/String;
+	public static final fun getAnalysisAgentService ()Lai/koog/agents/core/agent/GraphAIAgentService;
+	public static final fun getAnalysisAgentTool ()Lai/koog/agents/core/tools/Tool;
+	public static final fun getAnalysisToolRegistry ()Lai/koog/agents/core/tools/ToolRegistry;
+}
+
+public final class ai/koog/agents/example/exampleToolsOverview06/Example_tools_overview_06Kt {
+	public static final field apiKey Ljava/lang/String;
+	public static final fun getCoordinatorAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleTracing01/Example_tracing_01Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+	public static final fun getLogger ()Lio/github/oshai/kotlinlogging/KLogger;
+	public static final fun getOutputPath ()Lkotlinx/io/files/Path;
+}
+
+public final class ai/koog/agents/example/exampleTracing02/Example_tracing_02Kt {
+	public static final fun getAgent ()Lai/koog/agents/core/agent/GraphAIAgent;
+}
+
+public final class ai/koog/agents/example/exampleTracing03/Example_tracing_03Kt {
+	public static final fun main ()Ljava/lang/String;
+}
+
+public final class ai/koog/agents/example/exampleTracing04/Example_tracing_04Kt {
+	public static final field input Ljava/lang/String;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTracing05/Example_tracing_05Kt {
+	public static final field input Ljava/lang/String;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTracing06/Example_tracing_06Kt {
+	public static final field host Ljava/lang/String;
+	public static final field input Ljava/lang/String;
+	public static final field port I
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleTracing07/Example_tracing_07Kt {
+	public static final field host Ljava/lang/String;
+	public static final field input Ljava/lang/String;
+	public static final field port I
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public final class ai/koog/agents/example/exampleWeaveExporter01/Example_weave_exporter_01Kt {
+	public static final fun getPromptExecutor ()Lai/koog/prompt/executor/llms/MultiLLMPromptExecutor;
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+
+public class exampleCustomSubgraphsJava08 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleDataTransferBetweenNodesJava03 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleDataTransferBetweenNodesJava04 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleDatadogExporterJava01 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleDatadogExporterJava02 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleEventsJava01 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleEventsJava02 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleEventsJava03 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleLangfuseExporterJava01 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleOpentelemetrySupportJava01 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleOpentelemetrySupportJava02 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleOpentelemetrySupportJava03 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleOpentelemetrySupportJava04 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleOpentelemetrySupportJava05 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleOpentelemetrySupportJava06 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleOpentelemetrySupportJava07 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleOpentelemetrySupportJava08 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleOpentelemetrySupportJava09 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleOpentelemetrySupportJava10 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleOpentelemetrySupportJava11 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleSerializationJava01 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleSerializationJava02 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleSerializationJava03 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleSerializationJava04 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleSerializationJava05 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleSerializationJava06 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleTracingJava01 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleTracingJava02 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleTracingJava03 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleTracingJava04 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleTracingJava05 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleTracingJava06 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
+public class exampleWeaveExporterJava01 {
+	public fun <init> ()V
+	public static fun main ([Ljava/lang/String;)V
+}
+
